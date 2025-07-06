@@ -36,7 +36,7 @@ function getSeed() {
 
 function spin(timer) {
 	//var txt = 'seeds: ';
-	for(var i = 1; i < 7; i ++) {
+	for(var i = 1; i < 12; i ++) {
 		var oldSeed = -1;
 		/*
 		checking that the old seed from the previous iteration is not the same as the current iteration;
