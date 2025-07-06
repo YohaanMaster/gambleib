@@ -72,7 +72,7 @@ $(document).ready(function() {
 
  	// hook start button
  	$('.go').on('click',function(){
- 		var timer = 2;
+ 		var timer = 3;
  		spin(timer);
  	})
 
