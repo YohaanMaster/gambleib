@@ -1,7 +1,7 @@
-const SLOTS_PER_REEL = 8;
+const SLOTS_PER_REEL = 12;
 // radius = Math.round( ( panelWidth / 2) / Math.tan( Math.PI / SLOTS_PER_REEL ) ); 
 // current settings give a value of 149, rounded to 150
-const REEL_RADIUS = 100;
+const REEL_RADIUS = 150;
 
 function createSlots (ring) {
 	
@@ -53,7 +53,7 @@ function spin(timer) {
 		}
 
 		$('#ring'+i)
-			.css('animation','back-spin 1s, spin-' + seed + ' ' + (timer + i*0.3334) + 's')
+			.css('animation','back-spin 1s, spin-' + seed + ' ' + (timer + i*0.5) + 's')
 			.attr('class','ring spin-' + seed);
 	}
 
