@@ -1,7 +1,7 @@
-const SLOTS_PER_REEL = 12;
+const SLOTS_PER_REEL = 8;
 // radius = Math.round( ( panelWidth / 2) / Math.tan( Math.PI / SLOTS_PER_REEL ) ); 
 // current settings give a value of 149, rounded to 150
-const REEL_RADIUS = 150;
+const REEL_RADIUS = 100;
 
 function createSlots (ring) {
 	
@@ -36,7 +36,7 @@ function getSeed() {
 
 function spin(timer) {
 	//var txt = 'seeds: ';
-	for(var i = 1; i < 12; i ++) {
+	for(var i = 1; i < 7; i ++) {
 		var oldSeed = -1;
 		/*
 		checking that the old seed from the previous iteration is not the same as the current iteration;
