@@ -53,7 +53,7 @@ function spin(timer) {
 		}
 
 		$('#ring'+i)
-			.css('animation','back-spin 1s, spin-' + seed + ' ' + (timer + i*0.5) + 's')
+			.css('animation','back-spin 1s, spin-' + seed + ' ' + (timer + i*0.3334) + 's')
 			.attr('class','ring spin-' + seed);
 	}
 
