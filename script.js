@@ -45,7 +45,6 @@ function spin(timer) {
 	}
 
 	console.log('=====');
-}
 
 $(document).ready(function() {
 
